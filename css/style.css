@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5,
       font-weight: bolder;
       margin-bottom: 30px; }
     .section-bg.style-1 p {
-      color: #7697c6; }
+      color: #ffffff; }
 
 .news-updates {
   padding: 5rem 0; }
@@ -873,7 +873,9 @@ h1, h2, h3, h4, h5,
     background-color: inherit;
     left: 14.06px; }
   .feature-1 .icon-wrapper:before, .person .icon-wrapper:before {
-    top: -33.94px; }
+    top: -33.94px; 
+    background-color: #0C948C;
+  }
   .feature-1 .icon-wrapper:after, .person .icon-wrapper:after {
     bottom: -33.94px; }
 
@@ -1018,6 +1020,19 @@ h1, h2, h3, h4, h5,
 
   .btn-primary:hover {
     background-color:#47063C;
+  }
+
+  .list-footer {
+    color: #A1ACB3;
+  }
+
+  .unidades {
+    margin-top: 30px;
+  }
+  
+  .logo-footer {
+    position: absolute;
+    bottom: 95px;
   }
  
 #loader {
