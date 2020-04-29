@@ -1034,6 +1034,41 @@ h1, h2, h3, h4, h5,
     position: absolute;
     bottom: 95px;
   }
+
+  .custom-carousel:before {
+    opacity: 0;
+    
+   }
+
+  .carousel-projetos {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    overflow: hidden;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .img-parcerias {
+    max-width: 180px;
+    height: auto;
+    position: relative;
+    max-height: 180px;
+
+  }
  
 #loader {
   position: fixed;
